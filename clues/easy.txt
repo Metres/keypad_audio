@@ -1,4 +1,4 @@
-1105,audio/example.wav
-2105,audio/example.wav
-1135,audio/example.wav
-1405,audio/example.wav
+1105,example.wav
+2105,example.wav
+1135,example.wav
+1405,example.wav
