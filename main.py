@@ -92,7 +92,7 @@ def story():
 						if j == attempt:
 							#print audio[i]
 							sleep(0.01)
-							os.system('omxplayer --vol 194 %s > /dev/null 2>&1' %(audio[i]))  #play corresponding clue
+							os.system('omxplayer --vol 194 audio/%s > /dev/null 2>&1' %(audio[i]))  #play corresponding clue
 							if attempt == passcode[0]:
 								print'---start---'
 								start_time=datetime.datetime.now()
